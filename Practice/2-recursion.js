@@ -17,3 +17,9 @@ function sumRangeRecursive(n, total = 0) {
     return sumRangeRecursive(n -1, total + n)
 }
 sumRangeRecursive(3)
+
+let yourName;
+do {
+    yourName = prompt("Who are you?");
+} while (!yourName);
+console.log(yourName);
