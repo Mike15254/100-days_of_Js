@@ -1,0 +1,1 @@
+# A bash script that does a commit counter
