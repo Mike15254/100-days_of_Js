@@ -8,8 +8,11 @@
  */
 int main(void)
 {
-    print_to_98(45);
-    print_to_98(112);
-    print_to_98(0);
+    print_times_table(45);
+    _putchar('\n');
+    print_times_table(10);
+    _putchar('\n');
+    print_times_table(6);
+    _putchar('\n');
     return (0);
 }
