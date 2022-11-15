@@ -4,5 +4,6 @@
 void draw_table(void);
 void table(int n);
 void input_expence(void);
+int compute_expence(int n);
 
 #endif
