@@ -10,12 +10,22 @@
  */
 void input_expence(void)
 {
-    int i;
-    int expense;
-    printf("Input the expense for January\n");
-    for (i = 0; i <= 6; i++)
+    int i, j;
+    char month[5] = {'a', 'b', 'c', 'd', '\0'};
+    int expense[6];
+
+    for (i = 0; i < 4; i++)
     {
-        printf("Rent:");
-        scanf("%d",&expense);
+        printf("Input the expenses for %c : ",month[i]);
+
+        for (j = 0; j < 6; j++)
+        {
+            scanf("%d",&expense[j]);
+        }
+        
+    }
+    for (int k = 0; k < 6; k++)
+    {
+        printf("The expences of month %c are : %d", month[k], expense[k]);
     }
 }
