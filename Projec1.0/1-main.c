@@ -9,6 +9,7 @@
 int main(void)
 {
     printf("Displaying the table\n");
-    draw_table();
+    /*draw_table();*/
+    input_expence();
     return (0);
 }
