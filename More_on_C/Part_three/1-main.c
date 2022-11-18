@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - check the code 1-isdigit  is correct.
+ * main - check the code print_triangle if is correct.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    print_diagonal(0);
-    print_diagonal(2);
-    print_diagonal(10);
-    print_diagonal(-4);
+    print_triangle(2);
+    print_triangle(10);
+    print_triangle(1);
+    print_triangle(0);
     return (0);
 }
