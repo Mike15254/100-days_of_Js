@@ -2,20 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - check the code swap.c if it's correct
+ * main - check the code 2-strlen.c if is correct
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    
-    int a;
-    int b;
+     char s[10] = "My School";
 
-    a = 98;
-    b = 42;
-    printf("a=%d, b=%d\n", a, b);
-    swap_int(&a, &b);
-    printf("a=%d, b=%d\n", a, b);
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
     return (0);
 }
