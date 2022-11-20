@@ -1,4 +1,5 @@
-#include "main.h"
+
+#include <stdio.h>
 
 /**
  * swap_int - Swaps values of two integers
@@ -8,9 +9,19 @@
  * 
  * Return: no return
  */
-void swap_int(int *a, int *b)
+void swap_int(int a, int b)
 {
-    int swap = *a;
-    *a = *b;
-    *b = swap;
+    int swap = a;
+    a = b;
+    b = swap;
+}
+
+
+int main(void)
+{
+    int a = 4;
+    int b =6;
+    swap_int(a, b);
+    printf("%d, %d",a ,b);
+
 }
